@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     var audioPlayer = AVAudioPlayer()
     var isPlayingAudio = false
     var timer: Timer!
-    var tracks: [String] = ["BadriKiDulhania", "Belageddu", "Bulleya", "KatheyondaHelide", "NeenireSaniha", "Sahiba", "ThirbokiJeevana", "UffYehNoor"]
+    var tracks: [String] = ["BadriKiDulhania", "Belageddu", "Bulleya", "KatheyondaHelide", "NeenireSaniha", "Sahiba", "ThirbokiJeevana", "UffYehNoor", "Cold", "SomethingJustLikeThis"]
     var currentTrack : Int = -1
     var trackInfo: [String: AnyObject] = [:]
     
@@ -148,6 +148,7 @@ class ViewController: UIViewController {
         
         let trackItem = AVPlayerItem(url: url)
         let metadataList : [AVMetadataItem] = trackItem.asset.metadata
+        //Check for basic metadata in the list
         for item in metadataList {
             if item.commonKey != nil && item.value != nil {
                 if item.commonKey  == "title" {

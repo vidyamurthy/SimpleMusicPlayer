@@ -20,6 +20,8 @@
 		129A43A21E955D3E00F2DF4B /* Sahiba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 129A439A1E955D3E00F2DF4B /* Sahiba.mp3 */; };
 		129A43A31E955D3E00F2DF4B /* ThirbokiJeevana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 129A439B1E955D3E00F2DF4B /* ThirbokiJeevana.mp3 */; };
 		129A43A41E955D3E00F2DF4B /* UffYehNoor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 129A439C1E955D3E00F2DF4B /* UffYehNoor.mp3 */; };
+		12B091031E956F2000C9C5C1 /* Cold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12B091001E956F2000C9C5C1 /* Cold.mp3 */; };
+		12B091041E956F2000C9C5C1 /* SomethingJustLikeThis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12B091011E956F2000C9C5C1 /* SomethingJustLikeThis.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		129A439A1E955D3E00F2DF4B /* Sahiba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sahiba.mp3; path = Tracks/Sahiba.mp3; sourceTree = "<group>"; };
 		129A439B1E955D3E00F2DF4B /* ThirbokiJeevana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ThirbokiJeevana.mp3; path = Tracks/ThirbokiJeevana.mp3; sourceTree = "<group>"; };
 		129A439C1E955D3E00F2DF4B /* UffYehNoor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = UffYehNoor.mp3; path = Tracks/UffYehNoor.mp3; sourceTree = "<group>"; };
+		12B091001E956F2000C9C5C1 /* Cold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Cold.mp3; path = Tracks/Cold.mp3; sourceTree = "<group>"; };
+		12B091011E956F2000C9C5C1 /* SomethingJustLikeThis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SomethingJustLikeThis.mp3; path = Tracks/SomethingJustLikeThis.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 		129A43921E95515200F2DF4B /* Tracks */ = {
 			isa = PBXGroup;
 			children = (
+				12B091001E956F2000C9C5C1 /* Cold.mp3 */,
+				12B091011E956F2000C9C5C1 /* SomethingJustLikeThis.mp3 */,
 				129A43951E955D3E00F2DF4B /* BadriKiDulhania.mp3 */,
 				129A43961E955D3E00F2DF4B /* Belageddu.mp3 */,
 				129A43971E955D3E00F2DF4B /* Bulleya.mp3 */,
@@ -160,12 +166,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B091031E956F2000C9C5C1 /* Cold.mp3 in Resources */,
 				129A439E1E955D3E00F2DF4B /* Belageddu.mp3 in Resources */,
 				129A43A31E955D3E00F2DF4B /* ThirbokiJeevana.mp3 in Resources */,
 				129A438B1E95448900F2DF4B /* LaunchScreen.storyboard in Resources */,
 				129A43881E95448900F2DF4B /* Assets.xcassets in Resources */,
 				129A43A41E955D3E00F2DF4B /* UffYehNoor.mp3 in Resources */,
 				129A43861E95448900F2DF4B /* Main.storyboard in Resources */,
+				12B091041E956F2000C9C5C1 /* SomethingJustLikeThis.mp3 in Resources */,
 				129A43A01E955D3E00F2DF4B /* KatheyondaHelide.mp3 in Resources */,
 				129A439F1E955D3E00F2DF4B /* Bulleya.mp3 in Resources */,
 				129A439D1E955D3E00F2DF4B /* BadriKiDulhania.mp3 in Resources */,
@@ -346,6 +354,7 @@
 				129A43911E95448900F2DF4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
